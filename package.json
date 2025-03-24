@@ -12,6 +12,6 @@
     "vite": "^6.2.2"
   },
   "scripts": {
-    "start": "directus bootstrap && directus start"
+    "start": "npx directus bootstrap && directus start"
   }
 }

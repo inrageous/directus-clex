@@ -1,0 +1,4 @@
+.env
+schema
+node_modules
+.env.production

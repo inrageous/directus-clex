@@ -1,0 +1,5 @@
+[build]
+command = "node -e \"console.log('Directus version:', require('directus/package.json').version)\" && npx directus bootstrap"
+
+[start]
+command = "npx directus start"

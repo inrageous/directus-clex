@@ -7,11 +7,10 @@
   },
   "overrides": {
     "axios": "^1.8.2",
-    "esbuild": "^0.25.1",
-    "undici": "^7.5.0",
-    "vite": "^6.2.2",
-    "drectus": "11.7.2",
     "samlify": "^2.10.0"
+  },
+  "engines": {
+    "node": "^20"
   },
   "scripts": {
     "start": "node --no-node-snapshot ./node_modules/.bin/directus bootstrap && node --no-node-snapshot ./node_modules/.bin/directus start"

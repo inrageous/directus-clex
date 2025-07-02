@@ -4,3 +4,4 @@ node_modules
 .env.production
 uploads
 *.sql
+package-lock.json
